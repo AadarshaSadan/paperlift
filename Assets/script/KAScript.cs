@@ -24,7 +24,9 @@ public class KAScript : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+		straightline = true;
+		curveline = false;
+		topline = false;
     }
 
     // Update is called once per frame
@@ -43,8 +45,7 @@ public class KAScript : MonoBehaviour
 
             if (hitpoint.collider.name != "wallpaper" && hitpoint.transform.parent.name == "curvepart" && curveline)
             {
-                hitpoint.collider.GetComponent<MeshRenderer>().material.color = Color.blue;
-            }
+                hitpoint.collider.GetComponent<MeshRenderer>().material.color = Color.blue;            }
             if (hitpoint.collider.name == checkpoint1.name)
             {
                 onepoint = true;
@@ -56,10 +57,13 @@ public class KAScript : MonoBehaviour
             if (hitpoint.collider.name == checkpoint5.name && secondpoint || hitpoint.collider.name == checkpoint4.name && secondpoint)
             {
                 FindObjectOfType<changecolor>().changeit = true;
+				straightline = false;
+				curveline = true;
             }
             if (hitpoint.collider.name != "wallpaper" && hitpoint.transform.parent.name == "Topline" && topline)
             {
                 hitpoint.collider.GetComponent<MeshRenderer>().material.color = Color.blue;
+
             }
         }
 
