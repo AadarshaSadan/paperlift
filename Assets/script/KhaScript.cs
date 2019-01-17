@@ -12,7 +12,7 @@ public class KhaScript : MonoBehaviour
 	public bool check1;
 
 	public Camera mainCamera;
-
+	 
 	[SerializeField]
 	private bool topline;
 	[SerializeField]
@@ -34,9 +34,11 @@ public class KhaScript : MonoBehaviour
 		Ray ray = mainCamera.ScreenPointToRay (Input.mousePosition);
 		RaycastHit hitpoint;
 		if (Physics.Raycast (ray, out hitpoint)) {
-			//try {
+			try {
 
 			Debug.Log(hitpoint.transform.parent);
+
+
 				/*if (hitpoint.collider.name != "wallpaper" && hitpoint.transform.parent.name == "firstdraw" && firstdraw) {
  
 					hitpoint.collider.GetComponent<MeshRenderer> ().material.color = Color.blue;	
@@ -52,16 +54,24 @@ public class KhaScript : MonoBehaviour
 					Debug.Log (hitpoint.transform.parent);
 					firstdraw = false;
 				}
+
+				if(hitpoint.collider.name==checkpoint1.name)
+				{
+				
+				}
+
+			
 				 
 
-		//	} catch (Exception e) {
-		//		Debug.LogException (e, this);
+		} catch (Exception e) {
+				Debug.LogException (e, this);
 		//		Debug.Log ("something Error in code");
-			//}
+			}
 
 		}
 
 	}
 
 }
+
 

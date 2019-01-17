@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class forallcolor : MonoBehaviour
 {
+	
 	public Camera mainCamera;
 	// Use this for initialization
 	void Start ()
@@ -19,7 +20,7 @@ public class forallcolor : MonoBehaviour
 		if (Physics.Raycast (ray, out hitpoint)) {
 
 			if (hitpoint.collider.name != "wallpaper") {
-				hitpoint.collider.GetComponent<MeshRenderer> ().material.color = Color.blue;
+				hitpoint.collider.GetComponent<MeshRenderer> ().material.color = Color.red;
 				Debug.Log (hitpoint.transform.parent);
 
 			}

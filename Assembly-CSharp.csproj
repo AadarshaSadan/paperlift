@@ -56,10 +56,13 @@
      <Compile Include="Assets\script\changecolor.cs" />
      <Compile Include="Assets\script\forallcolor.cs" />
      <Compile Include="Assets\script\GameController.cs" />
+     <Compile Include="Assets\script\Getcolor.cs" />
+     <Compile Include="Assets\script\GhaScript.cs" />
      <Compile Include="Assets\script\KAScript.cs" />
      <Compile Include="Assets\script\KhaScript.cs" />
      <Compile Include="Assets\script\MaterialColor.cs" />
      <Compile Include="Assets\script\SceneChange.cs" />
+     <Compile Include="Assets\script\VerticexCol.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>A:/Sementic/project2/paperlift/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>

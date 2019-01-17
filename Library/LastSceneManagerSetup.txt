@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/KA.unity
+- path: Assets/Scenes/Gha.unity
   isLoaded: 1
   isActive: 1
