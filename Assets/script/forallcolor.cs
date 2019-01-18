@@ -1,15 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//[RequireComponent(typeof(AudioSource))]
 public class forallcolor : MonoBehaviour
 {
-	
+
 	public Camera mainCamera;
 	// Use this for initialization
+
 	void Start ()
 	{
-		
+
 	}
 	
 	// Update is called once per frame
@@ -21,9 +22,10 @@ public class forallcolor : MonoBehaviour
 
 			if (hitpoint.collider.name != "wallpaper") {
 				hitpoint.collider.GetComponent<MeshRenderer> ().material.color = Color.red;
-				Debug.Log (hitpoint.transform.parent);
 
-			}
+			} 
 		}
+
 	}
+
 }
