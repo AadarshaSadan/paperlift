@@ -51,5 +51,29 @@ public class SceneChange : MonoBehaviour
 		SceneManager.LoadScene ("Naag");
 	}
 
-    
+	public void ToA(){
+		SceneManager.LoadScene ("A");
+	}
+	public void ToB(){
+		SceneManager.LoadScene ("A");
+	}
+	public void ToC(){
+		SceneManager.LoadScene ("A");
+	}
+	public void ToD(){
+		SceneManager.LoadScene ("A");
+	}
+	public void ToE(){
+		SceneManager.LoadScene ("A");
+	}
+
+	public void TomovieClip()
+	{
+		SceneManager.LoadScene ("MovieClip");
+
+	}
+
 }
+
+
+    

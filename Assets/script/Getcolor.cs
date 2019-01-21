@@ -11,6 +11,8 @@ public class Getcolor : MonoBehaviour
 	int childnumber;
 	public int count;
 	//public int lastcount=0;
+
+	public int counttag;
 	string thisScene;
 	public GameObject completed;
 	AudioSource audior;
@@ -61,6 +63,40 @@ public class Getcolor : MonoBehaviour
 			StartCoroutine (waitanysecond (1));
 		}
 
+		if (thisScene == "A" && findHowmanywhite () == 1) {
+			if (!audior.isPlaying)
+				audior.Play ();
+			StartCoroutine (waitanysecond (1));
+		}
+		if (thisScene == "B" && findHowmanywhite () == 1) {
+			if (!audior.isPlaying)
+				audior.Play ();
+			StartCoroutine (waitanysecond (1));
+		}
+
+		if (thisScene == "C" && findHowmanywhite () == 1) {
+			if (!audior.isPlaying)
+				audior.Play ();
+			StartCoroutine (waitanysecond (1));
+		}
+		if (thisScene == "D" && findHowmanywhite () == 1) {
+			if (!audior.isPlaying)
+				audior.Play ();
+			StartCoroutine (waitanysecond (1));
+		}
+		if (thisScene == "E" && findHowmanywhite () == 1) {
+			if (!audior.isPlaying)
+				audior.Play ();
+			StartCoroutine (waitanysecond (1));
+		}
+
+		Debug.Log (findhowmanywithTag ("khaside"));
+		Debug.Log (findhowmanywithTag ("Top"));
+		Debug.Log(findhowmanywithTag("verticle"));
+		Debug.Log (findhowmanywithTag("okha"));
+			
+
+
 
 	}
 
@@ -76,6 +112,22 @@ public class Getcolor : MonoBehaviour
 		return count;
 	}
 
+
+	int findhowmanywithTag(string Tagname)
+	{
+		counttag = 0;
+		for (int i = 0; i < childnumber; i++) {
+			if (this.transform.GetChild (i).GetComponent<Renderer> ().material.GetColor ("_Color") == defaultobj.GetComponent<Renderer> ().material.GetColor ("_Color")
+				&& this.transform.GetChild(i).tag==Tagname) {
+				counttag++;
+			}
+
+
+		}
+		return counttag;
+
+	}
+
 	IEnumerator waitanysecond (int sec)
 	{
 		completed.SetActive (true);
@@ -88,7 +140,23 @@ public class Getcolor : MonoBehaviour
 			SceneManager.LoadScene ("GA");
 		if (thisScene == "KA")
 			SceneManager.LoadScene ("KHA");
+		if (thisScene == "A")
+			SceneManager.LoadScene ("B");
+		if (thisScene == "B")
+			SceneManager.LoadScene ("C");
+		if (thisScene == "C")
+			SceneManager.LoadScene ("D");
+		if (thisScene == "D")
+			SceneManager.LoadScene ("E");
 	}
+	
+
+
+
+	
+
+
+
 
 }
 
