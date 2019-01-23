@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\SceneChange.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\script\Getcolor.cs">
     <Files>
       <File FileName="Assets\script\SceneChange.cs" Line="62" Column="3" />
-      <File FileName="Assets\script\forallcolor.cs" Line="11" Column="28" />
-      <File FileName="Assets\script\Getcolor.cs" Line="148" Column="30" />
-      <File FileName="Assets\script\Kha.cs" Line="21" Column="1" />
+      <File FileName="Assets\script\forallcolor.cs" Line="22" Column="23" />
+      <File FileName="Assets\script\Gha.cs" Line="33" Column="72" />
+      <File FileName="Assets\script\Getcolor.cs" Line="211" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
