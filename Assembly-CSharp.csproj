@@ -53,6 +53,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Alphabet2D\Scripts\Button.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\Events.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\General.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\HierrachyManager.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\InputsHandler.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\LineRendererAttributes.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\PlatformChecker.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\Responsive.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\SmoothCurve.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\TracingPart.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\TracingPoint.cs" />
+     <Compile Include="Assets\Alphabet2D\Scripts\WritingHandler.cs" />
      <Compile Include="Assets\script\English\Ascript.cs" />
      <Compile Include="Assets\script\English\BScript.cs" />
      <Compile Include="Assets\script\English\CScript.cs" />

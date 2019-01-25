@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/English/C.unity
+- path: Assets/Alphabet2D/Scenes/Abc.unity
   isLoaded: 1
   isActive: 1
