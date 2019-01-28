@@ -6,73 +6,85 @@ using UnityEngine.SceneManagement;
 public class SceneChange : MonoBehaviour
 {
 
-	// Use this for initialization
-	void Start ()
-	{
-		
-	}
-	
-	// Update is called once per frame
-	void Update ()
-	{
-		
-	}
+    // Use this for initialization
+    void Start()
+    {
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
+    }
 
 
-	public void mainplay()
-	{
-		SceneManager.LoadScene ("Menu");
-	}
+    public void mainplay()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 
 
 
-	public void TOkA ()
-	{
-		SceneManager.LoadScene ("KA");
-	}
+    public void TOkA()
+    {
+        SceneManager.LoadScene("KA");
+    }
 
-	public void ToKHA ()
-	{
-		SceneManager.LoadScene ("KHA");
-	}
+    public void ToKHA()
+    {
+        SceneManager.LoadScene("KHA");
+    }
 
-	public void ToGA ()
-	{
-		SceneManager.LoadScene ("GA");
-	}
+    public void ToGA()
+    {
+        SceneManager.LoadScene("GA");
+    }
 
-	public void ToGha ()
-	{
-		SceneManager.LoadScene ("Gha");
-	}
+    public void ToGha()
+    {
+        SceneManager.LoadScene("Gha");
+    }
 
-	public void ToNag ()
-	{
-		SceneManager.LoadScene ("Naag");
-	}
+    public void ToNag()
+    {
+        SceneManager.LoadScene("Naag");
+    }
 
-	public void ToA(){
-		SceneManager.LoadScene ("A");
-	}
-	public void ToB(){
-		SceneManager.LoadScene ("A");
-	}
-	public void ToC(){
-		SceneManager.LoadScene ("A");
-	}
-	public void ToD(){
-		SceneManager.LoadScene ("A");
-	}
-	public void ToE(){
-		SceneManager.LoadScene ("A");
-	}
+    public void ToA() {
+        SceneManager.LoadScene("A");
+    }
+    public void ToB() {
+        SceneManager.LoadScene("A");
+    }
+    public void ToC() {
+        SceneManager.LoadScene("A");
+    }
+    public void ToD() {
+        SceneManager.LoadScene("A");
+    }
+    public void ToE() {
+        SceneManager.LoadScene("A");
+    }
 
-	public void TomovieClip()
-	{
-		SceneManager.LoadScene ("MovieClip");
+    public void TomovieClip()
+    {
+        SceneManager.LoadScene("MovieClip");
 
-	}
+    }
 
+    public void toAbc()
+    {
+        SceneManager.LoadScene("Abc");
+    }
+
+   
+    public void ToAR()
+    {
+        SceneManager.LoadScene("Ar");
+    }
+
+   
 }
 
 
