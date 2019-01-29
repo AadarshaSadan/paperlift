@@ -12,9 +12,11 @@ public class Elephantmovement : MonoBehaviour
     private Vector3 endpos;
     public GameObject target;
 
+    public GameObject firstpoint;
+    public GameObject secondpoint;
+
     private float lerptime = 10f;
     private float currentlerptime;
-
 
     // Start is called before the first frame update
     void Start()
@@ -36,10 +38,32 @@ public class Elephantmovement : MonoBehaviour
 
        
 
-        if (target.activeSelf)
+
+
+        if (firstpoint.activeSelf && secondpoint.activeSelf)
+        {
+            MoveAssets();
+        }
+
+        if(secondpoint.activeSelf)
+        {
+          //  Debug.Log("secondload");
+        }
+
+
+
+      
+    }
+
+
+    public void MoveAssets()
+    {
+
+
+        if (firstpoint.activeSelf)
         {
             currentlerptime += Time.deltaTime;
-          
+
             if (currentlerptime >= lerptime)
             {
                 currentlerptime = lerptime;
@@ -48,8 +72,6 @@ public class Elephantmovement : MonoBehaviour
             float per = currentlerptime / lerptime;
             _elephant.transform.position = Vector3.Lerp(starpos, endpos, per);
         }
-
-
     }
 
 

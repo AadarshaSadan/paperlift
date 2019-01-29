@@ -29,7 +29,7 @@ public class InputsHandler : MonoBehaviour
 				}
 		
 				if (buttons.Length == 0) {
-						buttons = GameObject.FindGameObjectsWithTag ("UIButton");
+						//buttons = GameObject.FindGameObjectsWithTag ("UIButton");
 				}
 		
 				Events eventsComp = GetComponent<Events> ();

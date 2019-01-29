@@ -81,6 +81,7 @@
      <Compile Include="Assets\EasyAR\Scripts\RecorderBehaviour.cs" />
      <Compile Include="Assets\EasyAR\Scripts\RenderCameraBehaviour.cs" />
      <Compile Include="Assets\EasyAR\Scripts\VideoPlayerBehaviour.cs" />
+     <Compile Include="Assets\Gamec.cs" />
      <Compile Include="Assets\Prefab\Elephantmovement.cs" />
      <Compile Include="Assets\script\English\Ascript.cs" />
      <Compile Include="Assets\script\English\BScript.cs" />
@@ -312,6 +313,9 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="EasyAR.Unity">
+ <HintPath>A:/Sementic/project2/paperlift/Assets/EasyAR/Scripts/EasyAR.Unity.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>A:/Sementic/project2/paperlift/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -320,9 +324,6 @@
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
  <HintPath>A:/Sementic/project2/paperlift/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
- </Reference>
- <Reference Include="EasyAR.Unity">
- <HintPath>A:/Sementic/project2/paperlift/Assets/EasyAR/Scripts/EasyAR.Unity.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll</HintPath>
