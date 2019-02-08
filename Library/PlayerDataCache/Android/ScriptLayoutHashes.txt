@@ -2,7 +2,21 @@ Android
 PlayerPath?
 A:/Sementic/project2/paperlift/run/paperlift.apk
 SceneListBegin?
+Assets/Scenes/MainScreen.unity
+Assets/Scenes/Menu.unity
+Assets/Alphabet2D/Scenes/Nepali2D.unity
+Assets/Scenes/English/A.unity
+Assets/Scenes/English/B.unity
+Assets/Scenes/English/C.unity
+Assets/Scenes/English/D.unity
+Assets/Scenes/English/E.unity
+Assets/Scenes/Nepali/GA.unity
+Assets/Scenes/Nepali/Gha.unity
+Assets/Scenes/Nepali/KHA.unity
+Assets/Scenes/Nepali/KA.unity
+Assets/Scenes/Nepali/Naag.unity
 Assets/Scenes/AR/Ar.unity
+Assets/Alphabet2D/Scenes/Abc.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 651cb2ad510bd3ad184331ed629cf77a Assembly-CSharp.dll:.Ascript
@@ -56,6 +70,7 @@ fc108ce7d98c40ac0907e8ca7f500c76 UnityEngine.UI.dll:UnityEngine.UI.Text
 abf1930d8126d0b2e00e9449129a0190 UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 64e54c0cbb0177c5ea26f340efb9ff85 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
 98ad81e9f689a492509f07e75b810aaa Unity.TextMeshPro.dll:TMPro.TMP_InputField
+97f405ab8948dda834b9f7c8ce87bd6b Assembly-CSharp.dll:.follow
 c2bb5b881c1ef9112991f24a7fec7e92 Assembly-CSharp.dll:.LineRendererAttributes
 cf9f5cf2c3145a37ac07f00e50e460f9 UnityEngine.UI.dll:UnityEngine.UI.AspectRatioFitter
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.UI.dll:UnityEngine.EventSystems.BaseInput
@@ -105,6 +120,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
+3925e2d7176293c1a17ceb9a86b31d23 Assembly-CSharp.dll:.checkActivity
 7912e57e660a825112f8516c6d844619 Assembly-CSharp.dll:.Kha
 9cebb2a489ddd6fd55da3fe7a0806992 Assembly-CSharp.dll:.forallcolor
 00274a21279f5cb831ce20f895049e38 Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
@@ -131,7 +147,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 b9c933e6120577e1be049caef5c11f71 Assembly-CSharp.dll:EasyAR.CloudRecognizerBehaviour
 9fa67cde54b4ab664cb24335c0fa5065 Assembly-CSharp.dll:EasyAR.ARSceneBehaviour
-5475306a12d58d2e6d42b8016f36b85a Assembly-CSharp.dll:.WritingHandler
+cd8e07da3d9b3c16a32d4fbf308aad36 Assembly-CSharp.dll:.WritingHandler
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 651cb2ad510bd3ad184331ed629cf77a Assembly-CSharp.dll:.Naag
 7912e57e660a825112f8516c6d844619 Assembly-CSharp.dll:.Gha
@@ -140,6 +156,7 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyAR.RealityPlaneBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
+ba26d512239e9c6ca2ecdc9a091e8f6c Assembly-CSharp.dll:.TextTyper
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyAR.RenderCameraBehaviour
 2f0adb78f40195d5bd783edee9a9a2cb Assembly-CSharp.dll:EasyAR.EasyARBehaviour
@@ -180,8 +197,9 @@ fb6a1ea36b4f6ef5948d283d93760765 UnityEngine.GoogleAudioSpatializer.dll:UnityEng
 346d5bddebfdc60cd7d79ad470eb7c66 Assembly-CSharp.dll:.Elephantmovement
 a4f0a4f62100f1a4fb5cbe0e00dde83f Unity.TextMeshPro.dll:TMPro.TextMeshProUGUI
 5fc094978ce3e3591a7500ed380d854a Unity.Analytics.DataPrivacy.dll:UnityEngine.Analytics.DataPrivacyButton
-c18f41fb9433367d86e1d9479c036184 Assembly-CSharp.dll:.TracingPart
+507a7eddf45e754c1a9f834623b2345b Assembly-CSharp.dll:.TracingPart
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+08196225fc3f04501fb0aa0e6f309da8 Assembly-CSharp.dll:.camera
 b2644acf4f62540a0f626319d031497e Assembly-CSharp.dll:EasyAR.ObjectTargetBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SceneChange
 c99abd2a94751efc771f69507c3617a7 Assembly-CSharp.dll:.TracingPoint
@@ -200,4 +218,7 @@ f0d7e81f97235cde57335a7da56d1c51 Assembly-CSharp.dll:EasyAR.ImageTrackerBehaviou
 93376649573e562d06247140da7ea9a8 Assembly-CSharp.dll:.Stack
 8649814970b42d345b89944b862453cc Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
 6b270eaf45f51335e359fa04a55f2246 Assembly-CSharp.dll:EasyAR.VideoPlayerBehaviour
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Camera2Dres
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyAR.QRCodeScannerBehaviour
+192cea63ab1df4620d9ba129fa9a63b4 Assembly-CSharp.dll:.handOnoff
+b65a4a54bb6c1eb06e1e985479d978b8 Assembly-CSharp.dll:.RayBtn

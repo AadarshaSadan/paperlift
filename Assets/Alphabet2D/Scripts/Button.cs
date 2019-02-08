@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 //Button Script
 public class Button : MonoBehaviour
@@ -15,8 +16,9 @@ public class Button : MonoBehaviour
 		public bool resetIconOnRelease = true;
 		public SpriteRenderer spriteRendererComp;
 		public Object messageObject;
+    internal ColorBlock colors;
 
-		void Awake ()
+    void Awake ()
 		{
 				this.tag = "UIButton";
 		}

@@ -55,21 +55,21 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene("A");
     }
     public void ToB() {
-        SceneManager.LoadScene("A");
+        SceneManager.LoadScene("B");
     }
     public void ToC() {
-        SceneManager.LoadScene("A");
+        SceneManager.LoadScene("C");
     }
     public void ToD() {
-        SceneManager.LoadScene("A");
+        SceneManager.LoadScene("D");
     }
     public void ToE() {
-        SceneManager.LoadScene("A");
+        SceneManager.LoadScene("E");
     }
 
     public void TomovieClip()
     {
-        SceneManager.LoadScene("MovieClip");
+        SceneManager.LoadScene("matchingAr2");
 
     }
 
@@ -82,8 +82,15 @@ public class SceneChange : MonoBehaviour
     public void ToAR()
     {
         SceneManager.LoadScene("Ar");
+
     }
 
+  
+  
+    public void twodNepali()
+    {
+        SceneManager.LoadScene("Nepali2D");
+    }
    
 }
 

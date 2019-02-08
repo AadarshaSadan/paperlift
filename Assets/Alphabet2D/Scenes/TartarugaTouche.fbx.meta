@@ -1,0 +1,170 @@
+fileFormatVersion: 2
+guid: 6e3ca4a1c89f5d84d84f391628c53ffd
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: "Bra\xE7oD"
+    100002: "Bra\xE7oE"
+    100004: "Cabe\xE7a"
+    100006: Casco
+    100008: Chapeu
+    100010: Espada
+    100012: Lingua
+    100014: Olho
+    100016: Peito
+    100018: Pena
+    100020: PernaD
+    100022: PernaE
+    100024: //RootNode
+    100026: UnhaD
+    100028: UnhaE
+    400000: "Bra\xE7oD"
+    400002: "Bra\xE7oE"
+    400004: "Cabe\xE7a"
+    400006: Casco
+    400008: Chapeu
+    400010: Espada
+    400012: Lingua
+    400014: Olho
+    400016: Peito
+    400018: Pena
+    400020: PernaD
+    400022: PernaE
+    400024: //RootNode
+    400026: UnhaD
+    400028: UnhaE
+    2100000: Pele
+    2100002: Lingua
+    2100004: Casco
+    2100006: Preto
+    2100008: Pele2
+    2100010: Branco
+    2100012: Cinza
+    2300000: "Bra\xE7oD"
+    2300002: "Bra\xE7oE"
+    2300004: "Cabe\xE7a"
+    2300006: Casco
+    2300008: Chapeu
+    2300010: Espada
+    2300012: Lingua
+    2300014: Olho
+    2300016: Peito
+    2300018: Pena
+    2300020: PernaD
+    2300022: PernaE
+    2300024: UnhaD
+    2300026: UnhaE
+    3300000: "Bra\xE7oD"
+    3300002: "Bra\xE7oE"
+    3300004: "Cabe\xE7a"
+    3300006: Casco
+    3300008: Chapeu
+    3300010: Espada
+    3300012: Lingua
+    3300014: Olho
+    3300016: Peito
+    3300018: Pena
+    3300020: PernaD
+    3300022: PernaE
+    3300024: UnhaD
+    3300026: UnhaE
+    4300000: UnhaE
+    4300002: UnhaD
+    4300004: "Bra\xE7oE"
+    4300006: "Bra\xE7oD"
+    4300008: Lingua
+    4300010: Pena
+    4300012: PernaE
+    4300014: PernaD
+    4300016: Casco
+    4300018: Peito
+    4300020: Espada
+    4300022: "Cabe\xE7a"
+    4300024: Olho
+    4300026: Chapeu
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -23,9 +23,9 @@ public class Elephantmovement : MonoBehaviour
     {
         elephant = _elephant.GetComponent<Animator>();
         starpos = _elephant.transform.position;
-        endpos = _apple.position;
+        //endpos = _apple.position;
       //  Debug.Log("startposition" + endpos);
-        elephant.SetBool("iswalking", false);
+        //elephant.SetBool("iswalking", false);
 
         // Calculate the journey length.
 
@@ -40,15 +40,12 @@ public class Elephantmovement : MonoBehaviour
 
 
 
-        if (firstpoint.activeSelf && secondpoint.activeSelf)
+        if (firstpoint.activeSelf)
         {
             MoveAssets();
         }
 
-        if(secondpoint.activeSelf)
-        {
-          //  Debug.Log("secondload");
-        }
+     
 
 
 
@@ -58,8 +55,6 @@ public class Elephantmovement : MonoBehaviour
 
     public void MoveAssets()
     {
-
-
         if (firstpoint.activeSelf)
         {
             currentlerptime += Time.deltaTime;

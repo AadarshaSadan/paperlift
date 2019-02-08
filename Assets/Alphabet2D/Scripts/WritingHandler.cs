@@ -14,7 +14,7 @@ public class WritingHandler : MonoBehaviour
 		public GameObject circlePointPrefab;//the circle point prefab
 		private GameObject currentLineRender = null;//current line renderer gameobject
 		public Material drawingMaterial;
-		private bool letterDone = false;
+		public bool letterDone = false;
 		private bool setRandomColor = true;
 		private bool clickStarted;//uses with mouse input drawings,when drawing clickStarted
 		public Transform hand;
@@ -22,8 +22,10 @@ public class WritingHandler : MonoBehaviour
 		public AudioClip cheeringSound;
 		public AudioClip positiveSound;
 		public AudioClip wrongSound;
+        public int Timetohold;//time to hold
+        public bool beingHandled=true;
 
-		IEnumerator Start ()
+    IEnumerator Start ()
 		{   
 				Cursor.visible = showCursor;//show curosr or hide
 				currentTracingPoints = new ArrayList ();//initiate the current tracing points
@@ -36,7 +38,8 @@ public class WritingHandler : MonoBehaviour
 		void Update ()
 		{
 				if (letterDone) {//if the letter is done then skip the next
-						return;
+           
+            return;
 				}
 
 				if (Input.GetKeyDown (KeyCode.Escape)) {//on escape pressed
@@ -210,7 +213,9 @@ public class WritingHandler : MonoBehaviour
 				currentTracingPoints.Clear ();//clear record of indexed
 				previousTracingPointIndex = 0;//reset previous selected Index(index as point id)
 				CheckLetterDone ();//check if the entier letter is written successfully or done
-				if (letterDone) {//if the current letter done or wirrten successfully
+     
+        if (letterDone) {//if the current letter done or wirrten successfully
+          
 						if (cheeringSound != null)
 								AudioSource.PlayClipAtPoint (cheeringSound, Vector3.zero, 0.8f);//play the cheering sound effect
 						hand.GetComponent<SpriteRenderer> ().enabled = false;//hide the hand
@@ -231,8 +236,10 @@ public class WritingHandler : MonoBehaviour
 		
 				if (success) {
 						letterDone = true;//letter done flag
-						Debug.Log ("You done the " + letters [currentLetterIndex].name);
-                        LoadNextLetter();
+                    //beingHandled = true;
+                    Debug.Log ("You done the " + letters [currentLetterIndex].name);
+                    LoadNextLetter();
+                
 
                 }
 		}
@@ -398,4 +405,11 @@ public class WritingHandler : MonoBehaviour
 				currentcicrle.GetComponent<Renderer>().material = currentLineRender.GetComponent<LineRendererAttributes> ().material;
 				currentcicrle.transform.position = position;
 		}
+
+    IEnumerator waitsomesecond(int sec)
+    {
+       
+        yield return new WaitForSeconds(sec);
+       
+    }
 }
