@@ -108,18 +108,22 @@
     <Compile Include="Assets\script\Stack.cs" />
     <Compile Include="Assets\Temp\_btnRandom.cs" />
     <Compile Include="Assets\Temp\checkActivity.cs" />
+    <Compile Include="Assets\Temp\Hidetext.cs" />
+    <Compile Include="Assets\Temp\playerobjRot.cs" />
     <Compile Include="Assets\Temp\RandomGenerator.cs" />
     <Compile Include="Assets\Temp\RayBtn.cs" />
     <Compile Include="Assets\Temp\strManu.cs" />
     <Compile Include="Assets\Temp\TextTyper.cs" />
-    <Compile Include="Assets\Videoplayer\stringpath.cs" />
+    <Compile Include="Assets\Videoplayer\uiIcon\fullScreen.cs" />
     <Compile Include="Assets\Videoplayer\uiIcon\Videoprogress.cs" />
+    <Compile Include="Assets\Videoplayer\Videoscroll.cs" />
     <None Include="Assets\EasyAR\doc\readme.en.txt" />
     <None Include="Assets\EasyAR\doc\changelog.en.txt" />
     <None Include="Assets\EasyAR\doc\readme.cn.txt" />
     <None Include="Assets\EasyAR\Resources\Shaders\TransparentVideo.shader" />
     <None Include="Assets\EasyAR\doc\changelog.cn.txt" />
     <None Include="Assets\EasyAR\Resources\Shaders\RealityPlane.shader" />
+    <None Include="Assets\Skybox\GradientSky.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>A:/Sementic/project2/paperlift/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

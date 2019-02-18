@@ -359,6 +359,9 @@
     <Compile Include="Assets\Temp\RayBtn.cs" />
     <Compile Include="Assets\Temp\strManu.cs" />
     <Compile Include="Assets\Temp\TextTyper.cs" />
+    <Compile Include="Assets\Videoplayer\uiIcon\fullScreen.cs" />
+    <Compile Include="Assets\Videoplayer\uiIcon\Videoprogress.cs" />
+    <Compile Include="Assets\Videoplayer\Videoscroll.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\EasyAR\Resources\Shaders\RealityPlane.shader" />
@@ -368,6 +371,7 @@
     <None Include="Assets\EasyAR\doc\readme.cn.txt" />
     <None Include="Assets\EasyAR\doc\readme.en.txt" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+    <None Include="Assets\Skybox\GradientSky.shader" />
     <None Include="Packages\com.unity.analytics\DataPrivacy\Unity.Analytics.DataPrivacy.asmdef" />
     <None Include="Packages\com.unity.analytics\Tests\Editor\Unity.Analytics.StandardEvents\Unity.Analytics.StandardEvents.EditorTests.asmdef" />
     <None Include="Packages\com.unity.analytics\Tests\Runtime\DataPrivacy\Unity.Analytics.DataPrivacy.Tests.asmdef" />

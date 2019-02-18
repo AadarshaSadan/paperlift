@@ -12,7 +12,7 @@ public class TextTyper : MonoBehaviour
     public float letterPause = 0.2f;
     public AudioClip typeSound1;
     public AudioClip typeSound2;
-
+    public bool isOntext;
     string message;
     Text textComp;
 
@@ -24,6 +24,14 @@ public class TextTyper : MonoBehaviour
         textComp.text = "";
         StartCoroutine(TypeText());
     }
+
+    private void Update()
+    {
+       
+    }
+
+
+
 
     IEnumerator TypeText()
     {

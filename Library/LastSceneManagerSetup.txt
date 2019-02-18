@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Alphabet2D/Scenes/Videoplayer.unity
+- path: Assets/Scenes/AR/Ar.unity
   isLoaded: 1
   isActive: 1

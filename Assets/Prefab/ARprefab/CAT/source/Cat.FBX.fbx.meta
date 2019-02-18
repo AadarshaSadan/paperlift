@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: 35d0780a389a951448d4d0e8a1c16972
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bip01
+    100002: Bip01 Head
+    100004: Bip01 Jaw
+    100006: Bip01 L Calf
+    100008: Bip01 L Clavicle
+    100010: Bip01 L Ear 1
+    100012: Bip01 L Ear 2
+    100014: Bip01 L Eyebrow
+    100016: Bip01 L Finger0
+    100018: Bip01 L Finger1
+    100020: Bip01 L Foot
+    100022: Bip01 L Forearm
+    100024: Bip01 L Hand
+    100026: Bip01 L Lip
+    100028: Bip01 L LowerEyelid
+    100030: Bip01 L LowerLip
+    100032: Bip01 L Thigh
+    100034: Bip01 L Toe0
+    100036: Bip01 L UpperArm
+    100038: Bip01 L UpperEyelid
+    100040: Bip01 L UpperLip
+    100042: Bip01 Neck
+    100044: Bip01 Nose
+    100046: Bip01 Pelvis
+    100048: Bip01 R Calf
+    100050: Bip01 R Clavicle
+    100052: Bip01 R Ear 1
+    100054: Bip01 R Ear 2
+    100056: Bip01 R Eyebrow
+    100058: Bip01 R Finger0
+    100060: Bip01 R Finger1
+    100062: Bip01 R Foot
+    100064: Bip01 R Forearm
+    100066: Bip01 R Hand
+    100068: Bip01 R Lip
+    100070: Bip01 R LowerEyelid
+    100072: Bip01 R LowerLip
+    100074: Bip01 R Thigh
+    100076: Bip01 R Toe0
+    100078: Bip01 R UpperArm
+    100080: Bip01 R UpperEyelid
+    100082: Bip01 R UpperLip
+    100084: Bip01 Spine
+    100086: Bip01 Spine1
+    100088: Bip01 Tail
+    100090: Bip01 Tail1
+    100092: Bip01 Tail2
+    100094: Bip01 Tail3
+    100096: Bip01 Tail4
+    100098: Bip01 Tongue 1
+    100100: Bip01 Tongue 2
+    100102: Bip01 Tongue 3
+    100104: Cat
+    100106: //RootNode
+    100108: Eye Left
+    100110: Eye Right
+    100112: Teeth Lower
+    100114: Teeth Upper
+    100116: Tongue
+    400000: Bip01
+    400002: Bip01 Head
+    400004: Bip01 Jaw
+    400006: Bip01 L Calf
+    400008: Bip01 L Clavicle
+    400010: Bip01 L Ear 1
+    400012: Bip01 L Ear 2
+    400014: Bip01 L Eyebrow
+    400016: Bip01 L Finger0
+    400018: Bip01 L Finger1
+    400020: Bip01 L Foot
+    400022: Bip01 L Forearm
+    400024: Bip01 L Hand
+    400026: Bip01 L Lip
+    400028: Bip01 L LowerEyelid
+    400030: Bip01 L LowerLip
+    400032: Bip01 L Thigh
+    400034: Bip01 L Toe0
+    400036: Bip01 L UpperArm
+    400038: Bip01 L UpperEyelid
+    400040: Bip01 L UpperLip
+    400042: Bip01 Neck
+    400044: Bip01 Nose
+    400046: Bip01 Pelvis
+    400048: Bip01 R Calf
+    400050: Bip01 R Clavicle
+    400052: Bip01 R Ear 1
+    400054: Bip01 R Ear 2
+    400056: Bip01 R Eyebrow
+    400058: Bip01 R Finger0
+    400060: Bip01 R Finger1
+    400062: Bip01 R Foot
+    400064: Bip01 R Forearm
+    400066: Bip01 R Hand
+    400068: Bip01 R Lip
+    400070: Bip01 R LowerEyelid
+    400072: Bip01 R LowerLip
+    400074: Bip01 R Thigh
+    400076: Bip01 R Toe0
+    400078: Bip01 R UpperArm
+    400080: Bip01 R UpperEyelid
+    400082: Bip01 R UpperLip
+    400084: Bip01 Spine
+    400086: Bip01 Spine1
+    400088: Bip01 Tail
+    400090: Bip01 Tail1
+    400092: Bip01 Tail2
+    400094: Bip01 Tail3
+    400096: Bip01 Tail4
+    400098: Bip01 Tongue 1
+    400100: Bip01 Tongue 2
+    400102: Bip01 Tongue 3
+    400104: Cat
+    400106: //RootNode
+    400108: Eye Left
+    400110: Eye Right
+    400112: Teeth Lower
+    400114: Teeth Upper
+    400116: Tongue
+    2100000: default
+    2100002: 02 - Default
+    2100004: Transparent
+    2300000: Eye Left
+    2300002: Eye Right
+    2300004: Teeth Lower
+    2300006: Teeth Upper
+    3300000: Eye Left
+    3300002: Eye Right
+    3300004: Teeth Lower
+    3300006: Teeth Upper
+    4300000: Teeth Lower
+    4300002: Tongue
+    4300004: Eye Left
+    4300006: Eye Right
+    4300008: Teeth Upper
+    4300010: Cat
+    7400000: cat_sleep
+    9500000: //RootNode
+    13700000: Cat
+    13700002: Tongue
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: cat_sleep
+      takeName: Take 001
+      firstFrame: 400
+      lastFrame: 460
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

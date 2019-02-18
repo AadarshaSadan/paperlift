@@ -51,23 +51,28 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene("Naag");
     }
 
-    public void ToA() {
+    public void ToA()
+    {
         SceneManager.LoadScene("A");
     }
-    public void ToB() {
+    public void ToB()
+    {
         SceneManager.LoadScene("B");
     }
-    public void ToC() {
+    public void ToC()
+    {
         SceneManager.LoadScene("C");
     }
-    public void ToD() {
+    public void ToD()
+    {
         SceneManager.LoadScene("D");
     }
-    public void ToE() {
+    public void ToE()
+    {
         SceneManager.LoadScene("E");
     }
 
-    public void TomovieClip()
+    public void ToMatchthewordAR()
     {
         SceneManager.LoadScene("matchingAr2");
 
@@ -78,21 +83,25 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene("Abc");
     }
 
-   
+
     public void ToAR()
     {
         SceneManager.LoadScene("Ar");
 
     }
 
-  
-  
+
+
     public void twodNepali()
     {
         SceneManager.LoadScene("Nepali2D");
     }
-   
+
+    public void VideoplayeR()
+    {
+        SceneManager.LoadScene("Videoplayer");
+    }
 }
 
 
-    
+
