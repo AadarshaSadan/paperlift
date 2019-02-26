@@ -6,7 +6,9 @@ Assets/Scenes/MainScreen.unity
 Assets/Scenes/Menu.unity
 Assets/Alphabet2D/Scenes/Abc.unity
 Assets/Alphabet2D/Scenes/Nepali2D.unity
+Assets/Alphabet2D/Scenes/Videoplayer.unity
 Assets/Scenes/AR/Ar.unity
+Assets/Scenes/AR/matchingAr2.unity
 SceneListEnd?
 984dcc0ba3707b7691fbdca8ff508d28 Unity.TextMeshPro.dll:TMPro.TMP_SelectionCaret
 651cb2ad510bd3ad184331ed629cf77a Assembly-CSharp.dll:.Ascript
@@ -111,7 +113,7 @@ e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.C
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.GroupTrack
 e1bbf0ab858085e38fae6b12ebbdcd35 UnityEngine.Timeline.dll:UnityEngine.Timeline.PlayableTrack
 201e3fde670b00545944bb3db215c80a UnityEngine.Timeline.dll:UnityEngine.Timeline.TimelineAsset
-59d09ea838b135a5f3c39c0e3d0dc3ff Assembly-CSharp.dll:.checkActivity
+1426c88dcc76513ec7ce05bd2c421f36 Assembly-CSharp.dll:.checkActivity
 7912e57e660a825112f8516c6d844619 Assembly-CSharp.dll:.Kha
 9cebb2a489ddd6fd55da3fe7a0806992 Assembly-CSharp.dll:.forallcolor
 00274a21279f5cb831ce20f895049e38 Unity.TextMeshPro.dll:TMPro.TMP_SubMeshUI
@@ -130,7 +132,7 @@ e0ee4b3d4e27318934cc940a969d3d96 UnityEngine.Networking.dll:UnityEngine.Networki
 ad9173d3a69d99153f38ed4b62226129 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransform
 9b895dcabbc1faf095c000c32d471fd0 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformChild
 5887ef1bc706b22b773d253fd443ceef UnityEngine.Networking.dll:UnityEngine.Networking.NetworkTransformVisualizer
-298af07745fadc06796b685a98d2c633 Assembly-CSharp.dll:.Videoscroll
+bbf841e5763f0b9556903e3f5d9d34b4 Assembly-CSharp.dll:.Videoscroll
 d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 303ad70ce203ad874efe2965d0fbcff9 Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsEventTracker
 7fb9de8dcf73854b6b328eca1f7a6e6d Unity.Analytics.Tracker.dll:UnityEngine.Analytics.AnalyticsTracker
@@ -138,6 +140,7 @@ d251bf88db6c95a6b1aa0b69298da9ef UnityEngine.SpatialTracking.dll:UnityEngine.Spa
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Gamec
 94017dcc9f00fe671ea7dc427b4da011 Unity.TextMeshPro.dll:TMPro.TMP_SpriteAsset
 b9c933e6120577e1be049caef5c11f71 Assembly-CSharp.dll:EasyAR.CloudRecognizerBehaviour
+1618f2f204c04d855a3e2cf12f42cc3b Assembly-CSharp.dll:.Hidetext
 9fa67cde54b4ab664cb24335c0fa5065 Assembly-CSharp.dll:EasyAR.ARSceneBehaviour
 cd8e07da3d9b3c16a32d4fbf308aad36 Assembly-CSharp.dll:.WritingHandler
 b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
@@ -145,7 +148,7 @@ b3ab2106268377ffe25dd18ac23dca28 Unity.TextMeshPro.dll:TMPro.TMP_Asset
 7912e57e660a825112f8516c6d844619 Assembly-CSharp.dll:.Gha
 651cb2ad510bd3ad184331ed629cf77a Assembly-CSharp.dll:.GA
 16270d4006d69b44e1f3ad92c1b6fdc0 Assembly-CSharp.dll:EasyAR.ObjectTrackerBehaviour
-cf6b9b81b528cb3f81a5ab5e55cec2c9 Assembly-CSharp.dll:.fullScreen
+253bff9756a4d5f4872c3f9806ce5d3d Assembly-CSharp.dll:.fullScreen
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyAR.RealityPlaneBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.Analytics.Editor.dll:UnityEditor.Analytics.AnalyticsEventTrackerEditor
 71bb6a6b6c8f052f948db64c7dd3ca4f Unity.TextMeshPro.dll:TMPro.TMP_SpriteAnimator
@@ -153,6 +156,7 @@ b0360246b202d42ecc2d14ae4f963d54 Assembly-CSharp.dll:.TextTyper
 4fd8bf02e3089425d3502e26c44ba31a Unity.TextMeshPro.dll:TMPro.TextContainer
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyAR.RenderCameraBehaviour
 2f0adb78f40195d5bd783edee9a9a2cb Assembly-CSharp.dll:EasyAR.EasyARBehaviour
+71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.ButtonsPanel
 651cb2ad510bd3ad184331ed629cf77a Assembly-CSharp.dll:.CScript
 e6ae40841db498b6e673877ac45ad208 UnityEngine.Networking.dll:UnityEngine.Networking.NetworkAnimator
 71bb6a6b6c8f052f948db64c7dd3ca4f UnityEngine.Networking.dll:UnityEngine.Networking.NetworkBehaviour
@@ -199,10 +203,12 @@ b2644acf4f62540a0f626319d031497e Assembly-CSharp.dll:EasyAR.ObjectTargetBehaviou
 d8cadfdfedc009c66e284ef20e029e4d Assembly-CSharp.dll:.RandomGenerator
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.SceneChange
 1b715adbb06855d2eb4d8af485e36f4a Assembly-CSharp.dll:._btnRandom
+afc5b93a7b192de2dcb3832fe35a5c7e Assembly-CSharp.dll:.playerobjRot
 c99abd2a94751efc771f69507c3617a7 Assembly-CSharp.dll:.TracingPoint
 3b7edbbcce84bd8b193f99204be55b50 Assembly-CSharp.dll:EasyAR.ImageTargetBehaviour
 116d11f890327d67ce4c6758d1d017ec Assembly-CSharp.dll:.Responsive
 d791aa6007fa3640be1164ea75bb087d Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
+6726162adeb49ad263c63b2878b5d17e Assembly-CSharp.dll:.volumecontroll
 c6666661329916e218bee7f5e79e60f5 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 3165968ba45c74472d279ba04455fccb Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 628c45456f6742b7bad54e9889573fd6 EasyAR.Unity.dll:EasyAR.ARCameraBaseBehaviour
@@ -217,6 +223,5 @@ f0d7e81f97235cde57335a7da56d1c51 Assembly-CSharp.dll:EasyAR.ImageTrackerBehaviou
 6b270eaf45f51335e359fa04a55f2246 Assembly-CSharp.dll:EasyAR.VideoPlayerBehaviour
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:.Camera2Dres
 71bb6a6b6c8f052f948db64c7dd3ca4f Assembly-CSharp.dll:EasyAR.QRCodeScannerBehaviour
-3a4ded5c18d77d56528eb360db0726ca Assembly-CSharp.dll:.handOnoff
-1618f2f204c04d855a3e2cf12f42cc3b Assembly-CSharp.dll:.Hidetext
-afc5b93a7b192de2dcb3832fe35a5c7e Assembly-CSharp.dll:.playerobjRot
+16f40bd29f8210a5075558265a641549 Assembly-CSharp.dll:.handOnoff
+11238a6774b932854a7397ec2b6d8f5a Assembly-CSharp.dll:.GUii

@@ -7,10 +7,13 @@ public class SceneChange : MonoBehaviour
 {
 
     // Use this for initialization
+
+        
     void Start()
     {
-
-    }
+      
+            
+     }
 
     // Update is called once per frame
     void Update()
@@ -101,6 +104,14 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("Videoplayer");
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+ 
+
 }
 
 

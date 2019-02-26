@@ -94,6 +94,7 @@
     <Compile Include="Assets\EasyAR\Scripts\RenderCameraBehaviour.cs" />
     <Compile Include="Assets\EasyAR\Scripts\VideoPlayerBehaviour.cs" />
     <Compile Include="Assets\Gamec.cs" />
+    <Compile Include="Assets\IconComponent\MenuComponent\speaker\volumecontroll.cs" />
     <Compile Include="Assets\Prefab\Elephantmovement.cs" />
     <Compile Include="Assets\script\English\Ascript.cs" />
     <Compile Include="Assets\script\English\BScript.cs" />
@@ -107,8 +108,11 @@
     <Compile Include="Assets\script\SceneChange.cs" />
     <Compile Include="Assets\script\Stack.cs" />
     <Compile Include="Assets\Temp\_btnRandom.cs" />
+    <Compile Include="Assets\Temp\ButtonsPanel.cs" />
     <Compile Include="Assets\Temp\checkActivity.cs" />
+    <Compile Include="Assets\Temp\GUii.cs" />
     <Compile Include="Assets\Temp\Hidetext.cs" />
+    <Compile Include="Assets\Temp\Information.cs" />
     <Compile Include="Assets\Temp\playerobjRot.cs" />
     <Compile Include="Assets\Temp\RandomGenerator.cs" />
     <Compile Include="Assets\Temp\RayBtn.cs" />

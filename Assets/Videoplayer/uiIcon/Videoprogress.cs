@@ -43,62 +43,63 @@ public class Videoprogress : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
     // Update is called once per frame
     void Update()
     {
-        videoplayer.SetDirectAudioVolume(0, volume.value);
-        if (videoplayer.frameCount > 0)
+           videoplayer.SetDirectAudioVolume(0, volume.value);
+               if (videoplayer.frameCount > 0)
+               {
+                   progressbar.fillAmount = (float)videoplayer.frame / (float)videoplayer.frameCount;
+                  // playerslider.value = (float)videoplayer.frame / (float)videoplayer.frameCount;
+               }
+
+               if (videoplayer.isPlaying)
+               {
+                   CurrentTime();
+               }
+
+               if (!slide && videoplayer.isPlaying)
+               {
+                   playerslider.value = (float)videoplayer.frame / (float)videoplayer.frameCount;
+               }
+
+     }
+
+
+
+        public void OnDrag(PointerEventData eventData)
         {
-           // progressbar.fillAmount = (float)videoplayer.frame / (float)videoplayer.frameCount;
-           // playerslider.value = (float)videoplayer.frame / (float)videoplayer.frameCount;
-        }
-
-        if (videoplayer.isPlaying)
-        {
-            CurrentTime();
-        }
-
-        if (!slide && videoplayer.isPlaying)
-        {
-            playerslider.value = (float)videoplayer.frame / (float)videoplayer.frameCount;
-        }
-
-    }
-
-    
-
-    /*public void OnDrag(PointerEventData eventData)
-    {
-        TrySkip(eventData);
-
-    }
-    public void OnPointerUp(PointerEventData eventData)
-    {
+            TrySkip(eventData);
        
-    }
 
-
-
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        TrySkip(eventData);
-        slide = true;
-
-    }
-
-    private void TrySkip(PointerEventData eventData)
-    {
-        Vector2 localPoint;
-        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(progressbar.rectTransform, eventData.position, null, out localPoint))
-        {
-            float pct = Mathf.InverseLerp(progressbar.rectTransform.rect.xMin, progressbar.rectTransform.rect.xMax, localPoint.x);
-            SkipToPercentage(pct);
         }
-    }
+        public void OnPointerUp(PointerEventData eventData)
+        {
 
-    private void SkipToPercentage(float pct)
-    {
-        var frame = videoplayer.frameCount * pct;
-        videoplayer.frame = (long)frame;
-    }*/
+        }
 
+
+
+        public void OnPointerDown(PointerEventData eventData)
+        {
+            TrySkip(eventData);
+            slide = true;
+
+        }
+
+        private void TrySkip(PointerEventData eventData)
+        {
+            Vector2 localPoint;
+            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(progressbar.rectTransform, eventData.position, null, out localPoint))
+            {
+                float pct = Mathf.InverseLerp(progressbar.rectTransform.rect.xMin, progressbar.rectTransform.rect.xMax, localPoint.x);
+                SkipToPercentage(pct);
+            }
+        }
+
+        private void SkipToPercentage(float pct)
+        {
+            var frame = videoplayer.frameCount * pct;
+            videoplayer.frame = (long)frame;
+        }
+    
 
     private void CurrentTime()
     {
@@ -116,15 +117,4 @@ public class Videoprogress : MonoBehaviour, IPointerDownHandler, IPointerUpHandl
         TotalSecond.text = seconds;
     }
 
-    public void OnPointerDown(PointerEventData eventData)
-    {
-        slide = true;
-    }
-
-    public void OnPointerUp(PointerEventData eventData)
-    {
-        float frame = (float)playerslider.value * (float)videoplayer.frameCount;
-        videoplayer.frame = (long)frame;
-        slide = false;
-    }
 }

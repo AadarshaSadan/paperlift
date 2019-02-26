@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class checkActivity : MonoBehaviour
 
 {
-
+    public Camera myCamera;
     public List<GameObject>imageTargetGameObject= new List<GameObject>();
     public List<GameObject>alphabetText = new List<GameObject>();
     public int thisdata;
     public GameObject hideData;
     public GameObject unhidData;
     public bool offdata=true;
+    public Text temporarytext;
     // Start is called before the first frame update
     void Start()
     {
@@ -44,8 +45,8 @@ public class checkActivity : MonoBehaviour
            
         }
 
-        
 
+        Description();
 
         
     }
@@ -67,6 +68,16 @@ public class checkActivity : MonoBehaviour
         unhidData.SetActive(false);
 
         alphabetText[thisdata].SetActive(false);
+    }
+
+    public void  Description()
+    {
+        Ray ray = myCamera.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit;
+        if(Physics.Raycast(ray,out hit))
+        {
+            temporarytext.text = hit.transform.gameObject.name.ToString();
+        }
     }
 
 

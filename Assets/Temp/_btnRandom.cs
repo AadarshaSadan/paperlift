@@ -80,7 +80,7 @@ public class _btnRandom : MonoBehaviour
         {
             if (isPlayaudio)
             {
-                source.PlayOneShot(rightaudio);
+                //  source.PlayOneShot(rightaudio);
 
 
             }
@@ -89,7 +89,7 @@ public class _btnRandom : MonoBehaviour
 
         if (isanotheraudio)
         {
-            source.PlayOneShot(wrongaudio);
+            //source.PlayOneShot(wrongaudio);
             isanotheraudio = false;
         }
 
@@ -134,7 +134,7 @@ public class _btnRandom : MonoBehaviour
                 isfirstbutton = true;
                 isPlayaudio = true;
                 righttext.SetActive(true);
-                list.Remove("ball");
+                list.Remove("BALL");
             }
 
             if (objectAr[0].activeSelf) //for  first image target eg:-apple
@@ -142,7 +142,23 @@ public class _btnRandom : MonoBehaviour
                 isfirstbutton = true;
                 isPlayaudio = true;
                 righttext.SetActive(true);
-                list.Remove("apple");
+                list.Remove("APPLE");
+            }
+
+            if (objectAr[2].activeSelf) //for  first image target eg:-apple
+            {
+                isfirstbutton = true;
+                isPlayaudio = true;
+                righttext.SetActive(true);
+                list.Remove("CAT");
+            }
+
+            if (objectAr[3].activeSelf) //for  first image target eg:-apple
+            {
+                isfirstbutton = true;
+                isPlayaudio = true;
+                righttext.SetActive(true);
+                list.Remove("DOG");
             }
 
             if (objectAr[4].activeSelf)
@@ -216,7 +232,7 @@ public class _btnRandom : MonoBehaviour
         {
             if (objectAr[1].activeSelf)
             {
-                if (uitext[i].text == "ball")
+                if (uitext[i].text == "BALL")
                 {
                     temp = i;
 
@@ -225,15 +241,33 @@ public class _btnRandom : MonoBehaviour
 
             if (objectAr[0].activeSelf)
             {
-                if (uitext[i].text == "apple")
+                if (uitext[i].text == "APPLE")
                 {
                     temp = i;
 
                 }
             }
+
+            if (objectAr[2].activeSelf)
+            {
+                if (uitext[i].text == "CAT")
+                {
+                    temp = i;
+
+                }
+            }
+            if (objectAr[3].activeSelf)
+            {
+                if (uitext[i].text == "DOG")
+                {
+                    temp = i;
+
+                }
+            }
+
             if (objectAr[4].activeSelf)
             {
-                if (uitext[i].text == "elephant")
+                if (uitext[i].text == "ELEPHANT")
                 {
                     temp = i;
 
@@ -268,29 +302,35 @@ public class _btnRandom : MonoBehaviour
             return true;
         }
     }
-    
+
 
     private void displayMsgIfAlreadyshown()
     {
 
-        if (objectAr[1].activeSelf && !list.Contains("ball"))
+        if (objectAr[1].activeSelf && !list.Contains("BALL"))
         {
             msg.SetActive(true);
         }
 
-        if (objectAr[0].activeSelf && !list.Contains("apple"))
+        if (objectAr[0].activeSelf && !list.Contains("APPLE"))
         {
             msg.SetActive(true);
         }
 
-
-        if (objectAr[4].activeSelf && !list.Contains("elephant"))
+        if (objectAr[2].activeSelf && !list.Contains("CAT"))
         {
             msg.SetActive(true);
         }
 
+        if (objectAr[4].activeSelf && !list.Contains("DOG"))
+        {
+            msg.SetActive(true);
+        }
 
-
+        if (objectAr[4].activeSelf && !list.Contains("ELEPHANT"))
+        {
+            msg.SetActive(true);
+        }
 
     }
 
@@ -329,15 +369,15 @@ public class _btnRandom : MonoBehaviour
 
         if (!objectAr[0].activeSelf || !objectAr[1].activeSelf || !objectAr[2].activeSelf || !objectAr[3].activeSelf || !objectAr[4].activeSelf)
         {
-            
+
             timeLeft -= Time.deltaTime;
             if (timeLeft < 0)
             {
-                
+
                 timeLeft = 8;
                 timermsg.SetActive(true);
             }
-            
+
         }
         else
         {
@@ -347,10 +387,12 @@ public class _btnRandom : MonoBehaviour
         if (objectAr[0].activeSelf || objectAr[1].activeSelf || objectAr[2].activeSelf || objectAr[3].activeSelf || objectAr[4].activeSelf)
         {
 
-         
-                timermsg.SetActive(false);
-            
+
+            timermsg.SetActive(false);
+
 
         }
     }
+
+
 }

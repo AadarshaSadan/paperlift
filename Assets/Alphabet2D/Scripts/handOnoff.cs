@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -9,60 +10,69 @@ public class handOnoff : MonoBehaviour
     Animator incline_Animition_A;
     public bool Isstop;
     public GameObject temphand;*/
+
+
     public Camera thiscamra;
-    public bool isOff;
-    public Vector3 pos=new Vector3(0f,0.8f,-10.33f);
+    public GameObject RightPanel;
+
+    public GameObject fullscreebbutton;
+    public GameObject smallscreenbutton;
+
+    public GameObject quad;
+    public GameObject home_btn;
 
 
-    public List<GameObject>allGameobject= new List<GameObject>(); 
 
-   
+
+
+
     // Start is called before the first frame update
     void Start()
     {
         // incline_Animition_A = hand.GetComponent<Animator>();
-        thiscamra.transform.position = pos;
-        
+        thiscamra.transform.position = new Vector3(1.2f, 1.6f, -28.2f);
+
     }
 
     // Update is called once per frame
     void Update()
     {
-      //  Isstop = incline_Animition_A.GetBool("nowStop");
-       /* if(incline_Animition_A.GetNextAnimatorStateInfo(0).IsName("idle"))
-        {
-            count++;
-            hand.SetActive(true);
-            temphand.SetActive(false);
-        }*/
 
-       
 
-        if(!isOff)
-        {
-            for (int i = 0; i < allGameobject.Count; i++)
-            {
-                allGameobject[i].SetActive(true);
-                thiscamra.transform.position = new Vector3(0f, 0.83f, -10.33f);
 
-            }
-        }
+
     }
 
     public void OnclickFitToScreen()
     {
 
-        isOff = true;
-        if (isOff)
-        {
-            for (int i = 0; i < allGameobject.Count; i++)
-            {
-                allGameobject[i].SetActive(false);
-                thiscamra.transform.position = new Vector3(-2.78f, 2.13f, -7.92f);
 
-            }
-        }
+        FindObjectOfType<Videoscroll>().isFullscreenClick = true;
+
+
+
+        fullscreebbutton.SetActive(false);
+        smallscreenbutton.SetActive(true);
+        quad.SetActive(false);
+        RightPanel.SetActive(false);
+        home_btn.SetActive(false);
+
+
     }
+
+
+    public void reduce_screensize()
+    {
+        FindObjectOfType<Videoscroll>().isFullscreenClick = false;
+        smallscreenbutton.SetActive(false);
+        fullscreebbutton.SetActive(true);
+        quad.SetActive(true);
+        RightPanel.SetActive(true);
+        home_btn.SetActive(true);
+
+    }
+
+
 
 
 }
